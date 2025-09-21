@@ -1,6 +1,6 @@
 # Kişisel Blog Sayfası 
 
-web sitesi html ile oluşturulmuştur.
+Bu depo, kişisel blog sitemin kaynak kodlarını içermektedir.Web sitesi html ile oluşturulmuştur.
 
 ## Canlı Uygulama
 
