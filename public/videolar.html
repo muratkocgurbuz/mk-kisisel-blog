@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videolar - Murat Koçgürbüz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-content {
+            max-width: 1000px;
+        }
+
+        .btn {
+            @apply flex items-center justify-center rounded-lg shadow-lg transition-transform transform hover:scale-105;
+        }
+    </style>
+</head>
+<body class="bg-[#8B0000] text-white flex flex-col items-center min-h-screen">
+    <div class="w-full flex justify-center p-8">
+        <div class="main-content w-full">
+            <header class="flex flex-col items-center md:flex-row md:justify-between mb-12">
+                <h1 class="text-6xl font-bold text-center md:text-left mb-6 md:mb-0">
+                    <a href="index.html" class="hover:text-[#F0F0F0] transition-colors"></a>
+                </h1>
+                <nav class="flex flex-wrap justify-center gap-4">
+                    <a href="index.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Ana Sayfa</a>
+                    <a href="resimler.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Resimler</a>
+                    <a href="hakkimda.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Kişisel Bilgiler</a>
+                </nav>
+            </header>
+
+            <main class="text-center">
+                <h2 class="text-4xl font-bold mb-8 text-[#F0F0F0]">Oğlumun Beğendiği Videolar</h2>
+                <!-- VSC'de düzenleyebileceğiniz yer: Videolar -->
+               <div class="grid grid-cols-1 gap-8">
+                    <!-- Örnek Video 1 (YouTube Embed) -->
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/os5d_GFyEHM?si=faSM0ZCNiPTgmT5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p class="text-sm">Best the world CR7</p>
+                    </div>
+                      <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AunImole9HI?si=0ldh8SBqAO92nPzl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p class="text-sm">Best the world CR7</p>
+                    </div>
+                    <!-- Daha fazla video eklemek için bu div'i kopyalayıp yapıştırın. -->
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

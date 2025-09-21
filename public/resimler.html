@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resimler - Murat Koçgürbüz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-content {
+            max-width: 1000px;
+        }
+
+        .btn {
+            @apply flex items-center justify-center rounded-lg shadow-lg transition-transform transform hover:scale-105;
+        }
+    </style>
+</head>
+<body class="bg-[#8B0000] text-white flex flex-col items-center min-h-screen">
+    <div class="w-full flex justify-center p-8">
+        <div class="main-content w-full">
+            <header class="flex flex-col items-center md:flex-row md:justify-between mb-12">
+                <h1 class="text-6xl font-bold text-center md:text-left mb-6 md:mb-0">
+                    <a href="index.html" class="hover:text-[#F0F0F0] transition-colors"></a>
+                </h1>
+                <nav class="flex flex-wrap justify-center gap-4">
+                    <a href="index.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Ana Sayfa</a>
+                    <a href="hakkimda.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Kişisel Bilgiler</a>
+                    <a href="videolar.html" class="btn bg-[#F0F0F0] text-black py-3 px-6 text-lg font-bold">Videolar</a>
+                </nav>
+            </header>
+
+            <main class="text-center">
+                <h2 class="text-4xl font-bold mb-8 text-[#F0F0F0]">Resimler Sayfası</h2>
+                <!-- VSC'de düzenleyebileceğiniz yer: Resimler -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Örnek Resim 1 -->
+                    <div class="bg-zinc-800 p-4 rounded-lg shadow-xl">
+                        <img src="atam_1.jpg" alt="Resim 1" class="rounded-lg mb-2">
+                        <p class="text-sm">Mustafa Kemal Atatürk</p>
+                    </div>
+                     <div class="bg-zinc-800 p-4 rounded-lg shadow-xl">
+                        <img src="gs.jpg" alt="Resim 1" class="rounded-lg mb-2">
+                        <p class="text-sm">Galatasaray</p>
+                    </div>
+                     <div class="bg-zinc-800 p-4 rounded-lg shadow-xl">
+                        <img src="mmk.jpg" alt="Resim 1" class="rounded-lg mb-2">
+                        <p class="text-sm">Ailem</p>
+                    </div>
+                    <!-- Daha fazla resim eklemek için bu div'i kopyalayıp yapıştırın -->
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
