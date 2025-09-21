@@ -6,6 +6,6 @@ web sitesi html ile oluşturulmuştur.
 
 Uygulamayı buradan ziyaret edebilirsiniz:
 
-[Web Sitem](https://www.websitenizinadi.com)
+[Web Sitem](https://muratkocgurbuz.vercel.app/)
 
 ---
